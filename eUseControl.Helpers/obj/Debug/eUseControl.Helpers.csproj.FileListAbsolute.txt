@@ -1,0 +1,14 @@
+H:\univer\PJ\eUseControl\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.dll
+H:\univer\PJ\eUseControl\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.pdb
+H:\univer\PJ\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.dll
+H:\univer\PJ\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\bin\Debug\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.csproj.AssemblyReference.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\obj\Debug\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\bin\Debug\AutoMapper.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\bin\Debug\AutoMapper.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\bin\Debug\AutoMapper.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Helpers\obj\Debug\eUseCont.031189D9.Up2Date

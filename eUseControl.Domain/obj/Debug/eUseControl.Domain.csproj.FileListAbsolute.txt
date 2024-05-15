@@ -1,0 +1,19 @@
+H:\univer\PJ\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.csprojResolveAssemblyReference.cache
+H:\univer\PJ\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Domain.dll
+H:\univer\PJ\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Domain.pdb
+H:\univer\PJ\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Helpers.dll
+H:\univer\PJ\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Helpers.pdb
+H:\univer\PJ\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.dll
+H:\univer\PJ\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Domain.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Domain.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.csproj.AssemblyReference.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\obj\Debug\eUseCont.610CB305.Up2Date
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\obj\Debug\eUseControl.Domain.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\AutoMapper.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\AutoMapper.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Domain\bin\Debug\AutoMapper.xml

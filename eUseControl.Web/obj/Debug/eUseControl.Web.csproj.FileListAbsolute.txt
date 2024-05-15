@@ -1,0 +1,212 @@
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\ApplicationInsights.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.Web.dll.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.Web.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.Web.pdb
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csc.exe
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csc.exe.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csc.rsp
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csi.exe
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csi.exe.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\csi.rsp
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.Win32.Primitives.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.AppContext.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Collections.Immutable.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Console.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Diagnostics.Process.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.IO.Compression.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.IO.FileSystem.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.IO.Pipes.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Reflection.Metadata.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.AccessControl.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Claims.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Cryptography.Encoding.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Principal.Windows.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Threading.Thread.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.ValueTuple.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Xml.ReaderWriter.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Xml.XmlDocument.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Xml.XPath.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\System.Xml.XPath.XDocument.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\vbc.exe
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\vbc.exe.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\vbc.rsp
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\VBCSCompiler.exe
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\roslyn\VBCSCompiler.exe.config
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Antlr3.Runtime.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\EntityFramework.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.Domain.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.Agent.Intercept.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.DependencyCollector.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.Web.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.WindowsServer.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.ApplicationInsights.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.Web.Infrastructure.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Newtonsoft.Json.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Diagnostics.DiagnosticSource.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Helpers.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Mvc.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Optimization.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Razor.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Deployment.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Razor.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\WebGrease.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.pdb
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\eUseControl.Domain.pdb
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Antlr3.Runtime.pdb
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\EntityFramework.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.DependencyCollector.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.Web.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AI.WindowsServer.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.ApplicationInsights.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\Newtonsoft.Json.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Diagnostics.DiagnosticSource.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Optimization.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Razor.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Deployment.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Razor.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Helpers.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\bin\System.Web.Mvc.xml
+H:\univer\PJ\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.csprojResolveAssemblyReference.cache
+H:\univer\PJ\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.dll
+H:\univer\PJ\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\ApplicationInsights.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Web.dll.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Web.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Web.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csc.exe
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csc.exe.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csc.rsp
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csi.exe
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csi.exe.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\csi.rsp
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.ValueTuple.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\vbc.exe
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\vbc.exe.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\vbc.rsp
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Antlr3.Runtime.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\AutoMapper.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\EntityFramework.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Domain.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.Web.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.ApplicationInsights.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Newtonsoft.Json.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Mvc.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Optimization.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Razor.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Deployment.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Razor.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\WebGrease.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.BusinessLogic.dll.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Domain.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Antlr3.Runtime.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\AutoMapper.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\EntityFramework.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.Web.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.ApplicationInsights.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Newtonsoft.Json.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Optimization.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Razor.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Deployment.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Webpages.Razor.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Helpers.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Web.Mvc.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.csproj.AssemblyReference.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.csproj.CoreCompileInputs.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\obj\Debug\eUseCont.507825D9.Up2Date
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\obj\Debug\eUseControl.Web.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Buffers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Memory.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Buffers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Memory.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Numerics.Vectors.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\AutoMapper.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.DependencyCollector.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.Web.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.AI.WindowsServer.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\Microsoft.ApplicationInsights.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Buffers.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Memory.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Numerics.Vectors.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.Web\bin\System.Runtime.CompilerServices.Unsafe.xml

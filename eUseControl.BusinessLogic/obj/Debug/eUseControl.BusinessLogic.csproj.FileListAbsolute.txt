@@ -1,0 +1,66 @@
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csprojResolveAssemblyReference.cache
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll.config
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.pdb
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.pdb
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.pdb
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.xml
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.dll
+H:\univer\PJ\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll.config
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.BusinessLogic.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\AutoMapper.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Domain.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\eUseControl.Helpers.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\AutoMapper.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseCont.F912DA32.Up2Date
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Google.Protobuf.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Microsoft.Owin.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Owin.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Buffers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Memory.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Helpers.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Mvc.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Razor.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\AutoMapper.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Google.Protobuf.pdb
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Google.Protobuf.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Microsoft.Owin.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Buffers.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Memory.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Helpers.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Mvc.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.Razor.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Razor.xml
