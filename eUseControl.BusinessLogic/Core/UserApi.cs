@@ -2,11 +2,12 @@
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 using System.Linq;
-using System.Web;
 using AutoMapper;
+using System.Web;
 using eUseControl.BusinessLogic.DBModel;
 using eUseControl.Domain.Entities.User;
 using eUseControl.Helpers;
+using System.Data.Entity.Infrastructure;
 
 namespace eUseControl.BusinessLogic.Core
 {
@@ -31,7 +32,8 @@ namespace eUseControl.BusinessLogic.Core
 
                 using (var todo = new UserContext())
                 {
-                    result.LasIp = data.LoginIp;
+                    result.LastIp = data.LoginIp;
+                    result.Level = data.Level;
                     result.LastLogin = data.LoginDateTime;
                     todo.Entry(result).State = EntityState.Modified;
                     todo.SaveChanges();
@@ -54,7 +56,7 @@ namespace eUseControl.BusinessLogic.Core
 
                 using (var todo = new UserContext())
                 {
-                    result.LasIp = data.LoginIp;
+                    result.LastIp = data.LoginIp;
                     result.LastLogin = data.LoginDateTime;
                     todo.Entry(result).State = EntityState.Modified;
                     todo.SaveChanges();
@@ -63,6 +65,61 @@ namespace eUseControl.BusinessLogic.Core
                 return new ULoginResp { Status = true };
             }
         }
+
+        internal URegisterResp UserRegisterAction(URegisterData data)
+        {
+            try
+            {
+                using (var db = new UserContext())
+                {
+                    if (db.Users.Any(u => u.Email == data.Email))
+                    {
+                        return new URegisterResp { Status = false, StatusMsg = "The email is already in use." };
+                    }
+
+                    if (db.Users.Any(u => u.Username == data.Username))
+                    {
+                        return new URegisterResp { Status = false, StatusMsg = "The username is already in use." };
+                    }
+
+                    var hashedPassword = LoginHelper.HashGen(data.Password);
+
+                    var newUser = new UDbTable
+                    {
+                        Username = data.Username,
+                        Email = data.Email,
+                        Password = hashedPassword,
+                        RegistrationDateTime = data.RegistrationDateTime,
+                        RegistrationIp = data.RegistrationIp
+                    };
+
+                    db.Users.Add(newUser);
+                    db.SaveChanges();
+                }
+
+                return new URegisterResp { Status = true };
+            }
+            catch (DbUpdateException ex)
+            {
+                // Log the inner exception for debugging purposes
+                var innerException = ex.InnerException;
+                while (innerException != null)
+                {
+                    System.Diagnostics.Debug.WriteLine(innerException.Message);
+                    innerException = innerException.InnerException;
+                }
+
+                return new URegisterResp { Status = false, StatusMsg = "An error occurred while saving the user. Please try again later." };
+            }
+            catch (Exception ex)
+            {
+                // Log the exception for debugging purposes
+                System.Diagnostics.Debug.WriteLine(ex.Message);
+
+                return new URegisterResp { Status = false, StatusMsg = "An unexpected error occurred. Please try again later." };
+            }
+        }
+
 
         internal HttpCookie Cookie(string loginCredential)
         {

@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "_SubHeader";
+}
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="@Url.Action("Index", "Home")">Villa</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                @if (Session["Username"] != null)
+                {
+                    <li class="nav-item">
+                        <span class="nav-link">Welcome, @Session["Username"]!</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Logout", "Account")">Logout</a>
+                    </li>
+                }
+                else
+                {
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Login")">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Register")">Register</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,46 @@
+﻿@model eUseControl.Web.Models.VillaViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutPropertyDetails.cshtml";
+    ViewBag.Title = "Property Details";
+}
+
+<div class="single-property section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="main-image">
+                    <img src="@Url.Content(Model.Villas.First().ImageUrl)" alt="@Model.Villas.First().Description">
+                </div>
+                <div class="main-content">
+                    <span class="category">Appartment</span>
+                    <h4>@Model.Villas.First().Description</h4>
+                    <p>@Model.Villas.First().Description</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="info-table">
+                    <ul>
+                        <li>
+                            <img src="~/assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
+                            <h4>@Model.Villas.First().Area m²<br><span>Total Flat Space</span></h4>
+                        </li>
+                        <li>
+                            <img src="~/assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
+                            <h4>Contract<br><span>Contract Ready</span></h4>
+                        </li>
+                        <li>
+                            <img src="~/assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
+                            <h4>Payment<br><span>Payment Process</span></h4>
+                        </li>
+                        <li>
+                            <img src="~/assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
+                            <h4>Safety<br><span>24/7 Under Control</span></h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

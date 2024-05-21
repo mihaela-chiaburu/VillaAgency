@@ -1,12 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using AutoMapper;
 using eUseControl.BusinessLogic;
 using eUseControl.BusinessLogic.Interfaces;
 using eUseControl.Domain.Entities.User;
+using eUseControl.Domain.Enums;
 using eUseControl.Web.Models;
 
 namespace eUseControl.Web.Controllers
@@ -32,15 +31,23 @@ namespace eUseControl.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                Mapper.Initialize(cfg=> cfg.CreateMap<UserLogin,ULoginData>());
                 var data = Mapper.Map<ULoginData>(login);
 
                 data.LoginIp = Request.UserHostAddress;
-                data.LoginDateTime= DateTime.Now;
+                data.LoginDateTime = DateTime.Now;
 
                 var userLogin = _session.UserLogin(data);
                 if (userLogin.Status)
                 {
+                    Session["Username"] = login.Credential;
+
+                    var userMinimal = new UserMinimal
+                    {
+                        Username = login.Credential,
+                        Level = login.Credential == "admin" ? URole.Admin : URole.User
+                    };
+                    Session["User"] = userMinimal;
+
                     HttpCookie cookie = _session.GenCookie(login.Credential);
                     ControllerContext.HttpContext.Response.Cookies.Add(cookie);
 
@@ -49,7 +56,6 @@ namespace eUseControl.Web.Controllers
                 else
                 {
                     ModelState.AddModelError("", userLogin.StatusMsg);
-                    return View();
                 }
             }
 

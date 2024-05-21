@@ -27,11 +27,14 @@ namespace eUseControl.Domain.Entities.User
         public string Email { get; set; }
 
         [DataType(DataType.Date)]
-        public DateTime LastLogin { get; set; }
+        public DateTime? LastLogin { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime RegistrationDateTime { get; set; }
 
         [StringLength(30)]
-        public string LasIp { get; set; }
-
-        public URole Level { get; set; }
+        public string LastIp { get; set; }
+        [StringLength(30)]
+        public string RegistrationIp { get; set; }
+        public URole? Level { get; set; }
     }
 }

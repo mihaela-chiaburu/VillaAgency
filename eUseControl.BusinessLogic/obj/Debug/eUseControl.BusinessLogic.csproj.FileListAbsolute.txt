@@ -64,3 +64,9 @@ C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\De
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.xml
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.FirstMigration.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.csproj.GenerateResource.cache
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.SecondMigration.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.SessionMigrations.AddSessionTable.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.UserMigrations.AddUserTable.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.VillaMigrations.AddVillaTable.resources

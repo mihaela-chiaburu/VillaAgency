@@ -110,12 +110,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminSessionBL.cs" />
     <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\UserApi.cs" />
     <Compile Include="BussinesLogic.cs" />
+    <Compile Include="Core\VillaApi.cs" />
     <Compile Include="DBModel\SessionContext.cs" />
     <Compile Include="DBModel\UserContext.cs" />
+    <Compile Include="DBModel\VillaContext.cs" />
+    <Compile Include="Interfaces\IAdminSession.cs" />
     <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Migrations\202405201950247_FirstMigration.cs" />
+    <Compile Include="Migrations\202405201950247_FirstMigration.Designer.cs">
+      <DependentUpon>202405201950247_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202405201953114_SecondMigration.cs" />
+    <Compile Include="Migrations\202405201953114_SecondMigration.Designer.cs">
+      <DependentUpon>202405201953114_SecondMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\SessionMigrations\202405202004050_AddSessionTable.cs" />
+    <Compile Include="Migrations\SessionMigrations\202405202004050_AddSessionTable.Designer.cs">
+      <DependentUpon>202405202004050_AddSessionTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\SessionMigrations\Configuration.cs" />
+    <Compile Include="Migrations\UserMigrations\202405202006055_AddUserTable.cs" />
+    <Compile Include="Migrations\UserMigrations\202405202006055_AddUserTable.Designer.cs">
+      <DependentUpon>202405202006055_AddUserTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\UserMigrations\Configuration.cs" />
+    <Compile Include="Migrations\VillaMigrations\202405202007279_AddVillaTable.cs" />
+    <Compile Include="Migrations\VillaMigrations\202405202007279_AddVillaTable.Designer.cs">
+      <DependentUpon>202405202007279_AddVillaTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\VillaMigrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionBL.cs" />
   </ItemGroup>
@@ -134,7 +162,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DBModel\Seed\" />
+    <EmbeddedResource Include="Migrations\202405201950247_FirstMigration.resx">
+      <DependentUpon>202405201950247_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202405201953114_SecondMigration.resx">
+      <DependentUpon>202405201953114_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\SessionMigrations\202405202004050_AddSessionTable.resx">
+      <DependentUpon>202405202004050_AddSessionTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\UserMigrations\202405202006055_AddUserTable.resx">
+      <DependentUpon>202405202006055_AddUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VillaMigrations\202405202007279_AddVillaTable.resx">
+      <DependentUpon>202405202007279_AddVillaTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

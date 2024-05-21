@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using eUseControl.BusinessLogic;
+using eUseControl.BusinessLogic.Interfaces;
+using eUseControl.Domain.Entities.Villa;
 using eUseControl.Web.Extension;
 using eUseControl.Web.Models;
 
@@ -10,40 +13,69 @@ namespace eUseControl.Web.Controllers
 {
     public class HomeController : BaseController
     {
+        private readonly IAdminSession _adminSession;
+
+        public HomeController()
+        {
+            var bl = new BussinesLogic();
+            _adminSession = bl.GetAdminSessionBL();
+        }
+
         // GET: Home
         public ActionResult Index()
         {
-            /*SessionStatus();
-            if ((string)System.Web.HttpContext.Current.Session["LoginStatus"] != "login")
-            {
-                return RedirectToAction("Index", "Login");
-            }*/
+            var villas = _adminSession.GetAllVillas().ToList();
 
-            var user = System.Web.HttpContext.Current.GetMySessionObject();
-            UserData u = new UserData
+            var model = new VillaViewModel
             {
-                Username = "Customer",
-                Products = new List<string> {"Product #1", "Product #2", "Product #3", "Product #4"}
+                Villas = villas
             };
 
-            return View(u);
+            return View(model);
         }
 
-        public ActionResult Product()
+
+        public ActionResult Contact()
         {
-            var product = Request.QueryString["p"];
-
-            UserData u = new UserData();
-            u.Username = "Customer";
-            u.SingleProduct = product;
-
-            return View(u);
+            return View();
         }
 
-        [HttpPost]
-        public ActionResult Product(string btn)
+        public ActionResult Properties()
         {
-            return RedirectToAction("Product", "Home", new { @p = btn });
+            var villas = _adminSession.GetAllVillas().ToList();
+
+            var model = new VillaViewModel
+            {
+                Villas = villas
+            };
+
+            return View(model);
+        }
+
+        public ActionResult Details(int id)
+        {
+            var villa = _adminSession.GetVillaById(id);
+            if (villa == null)
+            {
+                return HttpNotFound();
+            }
+
+            var model = new VillaViewModel
+            {
+                Villas = new List<VillaDbTable> { villa }
+            };
+
+            return View(model);
+        }
+
+
+        public ActionResult Reviews()
+        {
+            return View();
+        }
+        public ActionResult Search()
+        {
+            return View();
         }
     }
 }

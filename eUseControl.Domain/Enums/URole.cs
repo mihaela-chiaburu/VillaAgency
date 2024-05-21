@@ -8,8 +8,8 @@ namespace eUseControl.Domain.Enums
 {
     public enum URole
     {
-        User,
-        Moderator,
-        Admin
+        User = 1,
+        Admin = 2,
+        Moderator = 3
     }
 }

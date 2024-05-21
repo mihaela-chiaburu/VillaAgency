@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>eUse System | @ViewBag.Title</title>
+    <title>Villa agency | @ViewBag.Title</title>
 
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet" type="text/css">
     @Styles.Render("~/bundles/font-awesome/css")
@@ -20,23 +20,23 @@
     @if (IsSectionDefined("Styles"))
     {@RenderSection("Styles", required: false)}
 
-     <!-- Primary HOME style -->
-     @Styles.Render("~/bundles/main/css")
-     </head>
+    <!-- Primary HOME style -->
+    @Styles.Render("~/bundles/main/css")
+</head>
 
-     <body class="blank">
-     <div class="wrapper">
+<body class="blank">
+    <div class="wrapper">
         <!-- Main view -->
-         <section class="content">
-             @RenderBody()
-         </section>
+        <section class="content">
+            @RenderBody()
+        </section>
 
-         <!-- Section for main scripts render -->
-         @Scripts.Render("~/bundles/pace/js")
-         @Scripts.Render("~/bundles/jquery/js")
-         @Scripts.Render("~/bundles/luna/js")
-         <!-- Handler for local scripts -->
-         @RenderSection("scripts", required: false)
-     </div>
-     </body>
-     </html>
+        <!-- Section for main scripts render -->
+        @Scripts.Render("~/bundles/pace/js")
+        @Scripts.Render("~/bundles/jquery/js")
+        @Scripts.Render("~/bundles/luna/js")
+        <!-- Handler for local scripts -->
+        @RenderSection("scripts", required: false)
+    </div>
+</body>
+</html>

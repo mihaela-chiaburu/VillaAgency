@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using eUseControl.Domain.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace eUseControl.Web.Models
 {
@@ -6,5 +7,7 @@ namespace eUseControl.Web.Models
     {
         public string Credential { get; set; }
         public string Password { get; set; }
+        public URole Level { get; set; }
+
     }
 }
