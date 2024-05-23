@@ -1,0 +1,70 @@
+﻿@model eUseControl.Web.Models.SearchViewModel
+
+@{
+    Layout = "~/Views/Shared/_LayoutSearch.cshtml";
+    ViewBag.Title = "Search Properties";
+}
+<div class="container">
+    <h2>Search Properties</h2>
+    <div class="search-container">
+        <form method="get" action="@Url.Action("Search", "Home")" style="display: flex; flex-direction: column;">
+            <div class="search-row">
+                <input type="text" name="Name" class="search-input" placeholder="Name" />
+                <button type="submit" class="search-button">
+                    <img src="~/assets/images/search.png" alt="Search" />
+                </button>
+            </div>
+            <div class="search-row">
+                <input type="number" name="MinPrice" class="search-input" placeholder="Min Price" />
+                <button type="submit" class="search-button">
+                    <img src="~/assets/images/search.png" alt="Search" />
+                </button>
+            </div>
+            <div class="search-row">
+                <input type="number" name="MaxPrice" class="search-input" placeholder="Max Price" />
+                <button type="submit" class="search-button">
+                    <img src="~/assets/images/search.png" alt="Search" />
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <div class="row properties-box">
+        @if (Model.Villas != null && Model.Villas.Any())
+        {
+            foreach (var villa in Model.Villas)
+            {
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+                    <div class="item">
+                        <a href="@Url.Action("Details", "Home", new { id = villa.Id })"><img src="@Url.Content(villa.ImageUrl)" alt=""></a>
+                        <h6>@villa.Price.ToString("C")</h6>
+                        <h4><a href="@Url.Action("Details", "Home", new { id = villa.Id })">@villa.Name</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>@villa.Bedrooms</span></li>
+                            <li>Bathrooms: <span>@villa.Bathrooms</span></li>
+                            <li>Area: <span>@villa.Area m²</span></li>
+                            <li>Parking: <span>@villa.Parking spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="@Url.Action("Details", "Home", new { id = villa.Id })">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No properties found.</p>
+        }
+    </div>
+</div>
+
+<script>
+    document.querySelector('form').addEventListener('submit', function (event) {
+        setTimeout(function () {
+            document.querySelector('input[name="Name"]').value = '';
+            document.querySelector('input[name="MinPrice"]').value = '';
+            document.querySelector('input[name="MaxPrice"]').value = '';
+        }, 100);
+    });
+</script>

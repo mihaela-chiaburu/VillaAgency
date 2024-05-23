@@ -15,5 +15,6 @@ namespace eUseControl.Domain.Entities.User
         public DateTime LastLogin { get; set; }
         public string LasIp { get; set; }
         public URole Level { get; set; }
+        public UserProfile Profile { get; set; }
     }
 }

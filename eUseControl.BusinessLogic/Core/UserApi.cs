@@ -8,6 +8,7 @@ using eUseControl.BusinessLogic.DBModel;
 using eUseControl.Domain.Entities.User;
 using eUseControl.Helpers;
 using System.Data.Entity.Infrastructure;
+using eUseControl.Domain.Enums;
 
 namespace eUseControl.BusinessLogic.Core
 {
@@ -120,6 +121,23 @@ namespace eUseControl.BusinessLogic.Core
             }
         }
 
+        public void UpdateUserProfile(UserProfile profile)
+        {
+            using (var db = new ProfileContext())
+            {
+                var existingProfile = db.UserProfiles.FirstOrDefault(p => p.UserId == profile.UserId);
+                if (existingProfile != null)
+                {
+                    db.Entry(existingProfile).CurrentValues.SetValues(profile);
+                }
+                else
+                {
+                    db.UserProfiles.Add(profile);
+                }
+                db.SaveChanges();
+            }
+        }
+
 
         internal HttpCookie Cookie(string loginCredential)
         {
@@ -196,5 +214,6 @@ namespace eUseControl.BusinessLogic.Core
 
             return userminimal;
         }
+
     }
 }

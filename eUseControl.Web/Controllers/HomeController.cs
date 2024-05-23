@@ -73,9 +73,34 @@ namespace eUseControl.Web.Controllers
         {
             return View();
         }
-        public ActionResult Search()
+        public ActionResult Search(string name, decimal? minPrice, decimal? maxPrice)
         {
-            return View();
+            var villas = _adminSession.GetAllVillas().AsQueryable();
+
+            if (!string.IsNullOrEmpty(name))
+            {
+                villas = villas.Where(v => v.Name.Contains(name));
+            }
+
+            if (minPrice.HasValue)
+            {
+                villas = villas.Where(v => v.Price >= minPrice.Value);
+            }
+
+            if (maxPrice.HasValue)
+            {
+                villas = villas.Where(v => v.Price <= maxPrice.Value);
+            }
+
+            var model = new SearchViewModel
+            {
+                Name = name,
+                MinPrice = minPrice,
+                MaxPrice = maxPrice,
+                Villas = villas.ToList()
+            };
+
+            return View(model);
         }
     }
 }

@@ -1,5 +1,5 @@
-﻿using System.Web;
-using eUseControl.Domain.Entities.User;
+﻿using eUseControl.Domain.Entities.User;
+using System.Web;
 
 namespace eUseControl.BusinessLogic.Interfaces
 {
@@ -9,5 +9,8 @@ namespace eUseControl.BusinessLogic.Interfaces
         URegisterResp UserRegister(URegisterData data);
         HttpCookie GenCookie(string loginCredential);
         UserMinimal GetUserByCookie(string apiCookieValue);
+        UserProfile GetUserProfile(int userId);
+        void UpdateUserProfile(UserProfile profile);
+       // UserMinimal GetUserByCredentials(string credential);
     }
 }

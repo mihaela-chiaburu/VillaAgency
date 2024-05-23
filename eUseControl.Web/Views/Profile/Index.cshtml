@@ -1,0 +1,78 @@
+﻿@model eUseControl.Domain.Entities.User.UserProfile
+
+@{
+    Layout = "~/Views/Shared/_LayoutProfile.cshtml";
+    ViewBag.Title = "Profile";
+}
+
+<h2 style="text-align: center;">@ViewBag.Username's Profile</h2>
+
+<div class="profile">
+    <div class="profile-image">
+        <img src="@Url.Content(string.IsNullOrEmpty(Model.ProfileImage) ? "~/assets/images/catpfp.jpg" : Model.ProfileImage)" alt="Profile Image" />
+    </div>
+    <form method="post" action="@Url.Action("UpdateProfile", "Profile")" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="FirstName">First Name</label>
+            <input type="text" name="FirstName" class="form-control" value="@(Model.FirstName ?? string.Empty)" placeholder="First Name" />
+        </div>
+        <div class="form-group">
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName" class="form-control" value="@(Model.LastName ?? string.Empty)" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+            <label for="Age">Age</label>
+            <input type="number" name="Age" class="form-control" value="@(Model.Age.ToString() ?? "0")" placeholder="Age" />
+        </div>
+        <div class="form-group">
+            <label for="Biography">Biography</label>
+            <textarea name="Biography" class="form-control" placeholder="Biography">@Model.Biography</textarea>
+        </div>
+        <div class="form-group">
+            <label for="ProfileImage">Profile Image</label>
+            <input type="file" name="ProfileImage" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Update Profile</button>
+    </form>
+</div>
+
+<style>
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-image img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        width: 100%;
+        max-width: 500px;
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            margin-bottom: 5px;
+        }
+
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>

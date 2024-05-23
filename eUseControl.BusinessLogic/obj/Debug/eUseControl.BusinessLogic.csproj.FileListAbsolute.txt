@@ -70,3 +70,4 @@ C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\De
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.SessionMigrations.AddSessionTable.resources
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.UserMigrations.AddUserTable.resources
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.VillaMigrations.AddVillaTable.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.ProfileMigrations.AddUserProfileTable.resources
