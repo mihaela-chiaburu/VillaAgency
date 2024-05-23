@@ -244,7 +244,7 @@ namespace eUseControl.BusinessLogic.Core
 
         public List<Review> GetAllReviews()
         {
-            using (var db = new ProfileContext())
+            using (var db = new ReviewsContext())
             {
                 return db.Reviews.Include(r => r.User).ToList();
             }
@@ -252,12 +252,34 @@ namespace eUseControl.BusinessLogic.Core
 
         public void AddReview(Review review)
         {
-            using (var db = new ProfileContext())
+            using (var db = new ReviewsContext())
             {
                 db.Reviews.Add(review);
                 db.SaveChanges();
             }
         }
+
+        public Review GetReviewById(int id)
+        {
+            using (var db = new ReviewsContext())
+            {
+                return db.Reviews.Include(r => r.User).FirstOrDefault(r => r.Id == id);
+            }
+        }
+
+        public void DeleteReview(int id)
+        {
+            using (var db = new ReviewsContext())
+            {
+                var review = db.Reviews.FirstOrDefault(r => r.Id == id);
+                if (review != null)
+                {
+                    db.Reviews.Remove(review);
+                    db.SaveChanges();
+                }
+            }
+        }
+
 
     }
 }

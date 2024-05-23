@@ -23,13 +23,14 @@ namespace eUseControl.Web.Controllers
         public ActionResult Index()
         {
             var reviews = _session.GetAllReviews();
-            var viewModel = new Tuple<IEnumerable<Review>, ReviewViewModel>(reviews, new ReviewViewModel());
-            return View(viewModel);
+            var newReview = new Review();
+            ViewBag.NewReview = newReview;
+            return View(reviews);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult AddReview(ReviewViewModel reviewVm)
+        public ActionResult AddReview(Review newReview)
         {
             var user = Session["User"] as UserMinimal;
             if (user == null)
@@ -39,21 +40,43 @@ namespace eUseControl.Web.Controllers
 
             if (ModelState.IsValid)
             {
-                var review = new Review
-                {
-                    UserId = user.Id,
-                    Content = reviewVm.Content,
-                    DatePosted = DateTime.Now
-                };
+                newReview.UserId = user.Id;
+                newReview.DatePosted = DateTime.Now;
 
-                _session.AddReview(review);
+                _session.AddReview(newReview);
 
                 return RedirectToAction("Index");
             }
 
+            // Debugging code to see the validation errors
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var error in errors)
+            {
+                System.Diagnostics.Debug.WriteLine(error.ErrorMessage);
+            }
+
             var reviews = _session.GetAllReviews();
-            var viewModel = new Tuple<IEnumerable<Review>, ReviewViewModel>(reviews, reviewVm);
-            return View("Index", viewModel);
+            ViewBag.NewReview = newReview;
+            return View("Index", reviews);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteReview(int reviewId)
+        {
+            var user = Session["User"] as UserMinimal;
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            var review = _session.GetReviewById(reviewId);
+            if (review != null && review.UserId == user.Id)
+            {
+                _session.DeleteReview(reviewId);
+            }
+
+            return RedirectToAction("Index");
         }
     }
 }

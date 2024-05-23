@@ -11,20 +11,16 @@ namespace eUseControl.BusinessLogic.DBModel
         }
 
         public virtual DbSet<UserProfile> UserProfiles { get; set; }
-        public DbSet<Review> Reviews { get; set; }
-
 
         public UserProfile GetUserProfile(int userId)
         {
             var profile = UserProfiles.FirstOrDefault(p => p.UserId == userId);
             if (profile == null)
             {
-                // Log that no profile was found
                 System.Diagnostics.Debug.WriteLine($"No profile found for UserId: {userId}");
             }
             else
             {
-                // Log the details of the profile found
                 System.Diagnostics.Debug.WriteLine($"Profile found for UserId: {userId}, ProfileId: {profile.Id}");
             }
             return profile;

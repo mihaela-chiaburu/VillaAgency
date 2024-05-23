@@ -22,3 +22,5 @@ namespace eUseControl.Domain.Entities.User
         public virtual UserProfile User { get; set; }
     }
 }
+
+

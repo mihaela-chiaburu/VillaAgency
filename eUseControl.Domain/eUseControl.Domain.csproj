@@ -54,6 +54,7 @@
     <Compile Include="Entities\User\URegisterResp.cs" />
     <Compile Include="Entities\User\UserMinimal.cs" />
     <Compile Include="Entities\User\UserProfile.cs" />
+    <Compile Include="Entities\User\VisitRequest.cs" />
     <Compile Include="Entities\Villa\VillaDbTable.cs" />
     <Compile Include="Enums\URole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

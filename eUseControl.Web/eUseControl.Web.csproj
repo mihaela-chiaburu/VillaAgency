@@ -313,6 +313,7 @@
     <Content Include="assets\images\single-property.jpg" />
     <Content Include="assets\images\video-bg.jpg" />
     <Content Include="assets\images\video-frame.jpg" />
+    <Content Include="assets\images\villaNegeri.jpg" />
     <Content Include="assets\js\counter.js" />
     <Content Include="assets\js\custom.js" />
     <Content Include="assets\js\isotope.min.js" />
@@ -537,7 +538,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ReviewViewModel.cs" />
+    <Compile Include="Models\ReviewPageModel.cs" />
     <Compile Include="Models\UserProfileViewModel.cs" />
     <Compile Include="Models\SearchViewModel.cs" />
     <Compile Include="Models\UserData.cs" />
@@ -614,6 +615,8 @@
     <Content Include="Views\Shared\_LayoutProfile.cshtml" />
     <Content Include="Views\Review\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutReview.cshtml" />
+    <Content Include="Views\Visit\Schedule.cshtml" />
+    <Content Include="Views\Shared\_LayoutVisit.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -624,7 +627,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Account\" />
-    <Folder Include="Views\Visit\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
