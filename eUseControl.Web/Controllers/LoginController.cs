@@ -40,13 +40,7 @@ namespace eUseControl.Web.Controllers
                 if (userLogin.Status)
                 {
                     Session["Username"] = login.Credential;
-
-                    var userMinimal = new UserMinimal
-                    {
-                        Username = login.Credential,
-                        Level = login.Credential == "admin" ? URole.Admin : URole.User
-                    };
-                    Session["User"] = userMinimal;
+                    Session["User"] = userLogin.UserMinimal;
 
                     HttpCookie cookie = _session.GenCookie(login.Credential);
                     ControllerContext.HttpContext.Response.Cookies.Add(cookie);
@@ -61,5 +55,6 @@ namespace eUseControl.Web.Controllers
 
             return View();
         }
+
     }
 }

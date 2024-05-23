@@ -2,6 +2,9 @@
 using eUseControl.BusinessLogic.DBModel;
 using eUseControl.BusinessLogic.Interfaces;
 using eUseControl.Domain.Entities.User;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
 using System.Web;
 
 public class SessionBL : UserApi, ISession
@@ -34,4 +37,20 @@ public class SessionBL : UserApi, ISession
         }
     }
 
+    public List<Review> GetAllReviews()
+    {
+        using (var db = new ProfileContext())
+        {
+            return db.Reviews.Include(r => r.User).ToList();
+        }
+    }
+
+    public void AddReview(Review review)
+    {
+        using (var db = new ProfileContext())
+        {
+            db.Reviews.Add(review);
+            db.SaveChanges();
+        }
+    }
 }

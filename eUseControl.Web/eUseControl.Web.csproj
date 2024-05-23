@@ -530,12 +530,14 @@
     <Compile Include="Controllers\ManagementController.cs" />
     <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="Controllers\VisitController.cs" />
     <Compile Include="Extension\HttpContextExtensions.cs" />
     <Compile Include="Filtres\AdminAuthorizeAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ReviewViewModel.cs" />
     <Compile Include="Models\UserProfileViewModel.cs" />
     <Compile Include="Models\SearchViewModel.cs" />
     <Compile Include="Models\UserData.cs" />
@@ -610,6 +612,8 @@
     <Content Include="Views\Shared\_LayoutSearch.cshtml" />
     <Content Include="Views\Profile\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutProfile.cshtml" />
+    <Content Include="Views\Review\Index.cshtml" />
+    <Content Include="Views\Shared\_LayoutReview.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

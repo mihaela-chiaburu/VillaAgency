@@ -1,0 +1,81 @@
+﻿@model Tuple<IEnumerable<eUseControl.Domain.Entities.User.Review>, eUseControl.Web.Models.ReviewViewModel>
+
+@{
+    Layout = "~/Views/Shared/_LoginReview.cshtml";
+    ViewBag.Title = "Reviews";
+}
+
+<h2>Student reviews</h2>
+
+<div class="reviews">
+    @foreach (var review in Model.Item1)
+    {
+        <div class="review">
+            <div class="review-user">
+                <img src="@Url.Content(string.IsNullOrEmpty(review.User.ProfileImage) ? "~/assets/images/default-profile.png" : review.User.ProfileImage)" alt="Profile Image" />
+                <h3>@review.User.FirstName @review.User.LastName</h3>
+            </div>
+            <p>@review.Content</p>
+            <small>Posted on @review.DatePosted.ToString("dd MMM yyyy")</small>
+        </div>
+    }
+</div>
+
+@if (Session["User"] != null)
+{
+    <div class="add-review">
+        <h3>Add a review</h3>
+        @using (Html.BeginForm("AddReview", "Review", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(model => model.Item2.Content)
+            <div class="form-group">
+                @Html.LabelFor(model => model.Item2.Content, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.Item2.Content, new { @class = "form-control", @rows = 5 })
+                    @Html.ValidationMessageFor(model => model.Item2.Content, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <button type="submit" class="btn btn-primary">Post Review</button>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<style>
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        width: 100%;
+        max-width: 600px;
+        border: 1px solid #ddd;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+
+    .review-user {
+        display: flex;
+        align-items: center;
+    }
+
+        .review-user img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+    .add-review {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 600px;
+    }
+</style>

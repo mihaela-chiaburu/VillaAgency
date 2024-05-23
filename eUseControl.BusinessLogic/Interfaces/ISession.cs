@@ -1,4 +1,5 @@
 ﻿using eUseControl.Domain.Entities.User;
+using System.Collections.Generic;
 using System.Web;
 
 namespace eUseControl.BusinessLogic.Interfaces
@@ -11,6 +12,7 @@ namespace eUseControl.BusinessLogic.Interfaces
         UserMinimal GetUserByCookie(string apiCookieValue);
         UserProfile GetUserProfile(int userId);
         void UpdateUserProfile(UserProfile profile);
-       // UserMinimal GetUserByCredentials(string credential);
+        List<Review> GetAllReviews();
+        void AddReview(Review review);
     }
 }

@@ -44,6 +44,7 @@ namespace eUseControl.Web.Controllers
             return View(profile);
         }
 
+
         [HttpPost]
         public ActionResult UpdateProfile(UserProfile profile, HttpPostedFileBase ProfileImage)
         {

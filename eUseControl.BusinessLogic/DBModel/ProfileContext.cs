@@ -11,6 +11,8 @@ namespace eUseControl.BusinessLogic.DBModel
         }
 
         public virtual DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+
 
         public UserProfile GetUserProfile(int userId)
         {

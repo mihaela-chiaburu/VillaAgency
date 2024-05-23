@@ -9,6 +9,7 @@ using eUseControl.Domain.Entities.User;
 using eUseControl.Helpers;
 using System.Data.Entity.Infrastructure;
 using eUseControl.Domain.Enums;
+using System.Collections.Generic;
 
 namespace eUseControl.BusinessLogic.Core
 {
@@ -40,7 +41,16 @@ namespace eUseControl.BusinessLogic.Core
                     todo.SaveChanges();
                 }
 
-                return new ULoginResp { Status = true };
+                var userMinimal = new UserMinimal
+                {
+                    Id = result.Id,  // Ensure the ID is set
+                    Username = result.Username,
+                    Email = result.Email,
+                    LastLogin = result.LastLogin ?? DateTime.Now,
+                    LasIp = result.LastIp,
+                    Level = result.Level ?? URole.User
+                };
+                return new ULoginResp { Status = true, UserMinimal = userMinimal };
             }
             else
             {
@@ -63,9 +73,19 @@ namespace eUseControl.BusinessLogic.Core
                     todo.SaveChanges();
                 }
 
-                return new ULoginResp { Status = true };
+                var userMinimal = new UserMinimal
+                {
+                    Id = result.Id,  // Ensure the ID is set
+                    Username = result.Username,
+                    Email = result.Email,
+                    LastLogin = result.LastLogin ?? DateTime.Now,
+                    LasIp = result.LastIp,
+                    Level = result.Level ?? URole.User
+                };
+                return new ULoginResp { Status = true, UserMinimal = userMinimal };
             }
         }
+
 
         internal URegisterResp UserRegisterAction(URegisterData data)
         {
@@ -128,7 +148,13 @@ namespace eUseControl.BusinessLogic.Core
                 var existingProfile = db.UserProfiles.FirstOrDefault(p => p.UserId == profile.UserId);
                 if (existingProfile != null)
                 {
-                    db.Entry(existingProfile).CurrentValues.SetValues(profile);
+                    existingProfile.FirstName = profile.FirstName;
+                    existingProfile.LastName = profile.LastName;
+                    existingProfile.ProfileImage = profile.ProfileImage;
+                    existingProfile.Age = profile.Age;
+                    existingProfile.Biography = profile.Biography;
+
+                    db.Entry(existingProfile).State = EntityState.Modified;
                 }
                 else
                 {
@@ -137,6 +163,7 @@ namespace eUseControl.BusinessLogic.Core
                 db.SaveChanges();
             }
         }
+
 
 
         internal HttpCookie Cookie(string loginCredential)
@@ -213,6 +240,23 @@ namespace eUseControl.BusinessLogic.Core
             var userminimal = Mapper.Map<UserMinimal>(curentUser);
 
             return userminimal;
+        }
+
+        public List<Review> GetAllReviews()
+        {
+            using (var db = new ProfileContext())
+            {
+                return db.Reviews.Include(r => r.User).ToList();
+            }
+        }
+
+        public void AddReview(Review review)
+        {
+            using (var db = new ProfileContext())
+            {
+                db.Reviews.Add(review);
+                db.SaveChanges();
+            }
         }
 
     }
