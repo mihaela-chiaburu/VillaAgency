@@ -36,7 +36,7 @@
   
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/f6f393a6-b661-41ff-a94d-20c0091ed83b) ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/0446ca8f-0cb7-47bd-8c3c-66c58c61c96e)
 
-      Figure 6 - General presentation of the site
+      Figure 6 - Profile page
   Figure 6 shows the default fields and image of a profile that the user fills out. Once the user presses UPDATE, the profile data is updated and saved in the database.
 
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/29c85653-8116-48a8-b996-8377d36f40a1)
@@ -72,12 +72,12 @@ Figure 10 shows the contact page, where users have the option to send messages t
 
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/b5bb6af6-edf3-4c65-aad3-a8f5dc566c5a)
     
-      Figure 12 - General presentation of the site
+      Figure 12 - Search page
   The search page offers 3 search options: by name, by maximum and minimum price.
 
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/c361b1c4-70fb-4966-b3f6-313ebae91187)
    
-      Figure 13 - General presentation of the site
+      Figure 13 - Results of search
   Figure 13 shows the result of searching for villas with the maximum price of 584500.
 
 # Review pages
@@ -140,7 +140,7 @@ Figure 10 shows the contact page, where users have the option to send messages t
       Figure 24 – Domain
   Entities such as User, Villa are present at the Domain level and access roles are also illustrated.
 
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/b77ed17d-af71-4b2b-96d6-7ebf768f8548)
-     
+![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/145832879/1836807f-b1ee-4c16-9804-f1302328a045)
+
       Figure 25 - Helpers
   The Helpers tier has helper classes for certain functions such as hashing
