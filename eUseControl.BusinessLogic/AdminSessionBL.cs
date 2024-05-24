@@ -5,9 +5,9 @@ using eUseControl.Domain.Entities.Villa;
 
 namespace eUseControl.BusinessLogic
 {
-    public class AdminSessionBL : VillaApi, IAdminSession
+    public class AdminSessionBL : AdminApi, IAdminSession
     {
-        private readonly VillaApi _villaApi = new VillaApi();
+        private readonly AdminApi _villaApi = new AdminApi();
 
         public List<VillaDbTable> GetAllVillas()
         {

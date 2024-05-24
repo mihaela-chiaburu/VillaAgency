@@ -111,10 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminSessionBL.cs" />
-    <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\UserApi.cs" />
     <Compile Include="BussinesLogic.cs" />
-    <Compile Include="Core\VillaApi.cs" />
+    <Compile Include="Core\AdminApi.cs" />
     <Compile Include="DBModel\ProfileContext.cs" />
     <Compile Include="DBModel\ReviewsContext.cs" />
     <Compile Include="DBModel\SessionContext.cs" />

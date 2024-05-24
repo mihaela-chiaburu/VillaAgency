@@ -26,6 +26,6 @@ namespace eUseControl.Domain.Entities
         public string Notes { get; set; }
 
         [ForeignKey("PropertyId")]
-        public virtual VillaDbTable Property { get; set; } // Navigation property
+        public virtual VillaDbTable Property { get; set; }
     }
 }

@@ -43,7 +43,7 @@ namespace eUseControl.BusinessLogic.Core
 
                 var userMinimal = new UserMinimal
                 {
-                    Id = result.Id,  // Ensure the ID is set
+                    Id = result.Id, 
                     Username = result.Username,
                     Email = result.Email,
                     LastLogin = result.LastLogin ?? DateTime.Now,
@@ -75,7 +75,7 @@ namespace eUseControl.BusinessLogic.Core
 
                 var userMinimal = new UserMinimal
                 {
-                    Id = result.Id,  // Ensure the ID is set
+                    Id = result.Id, 
                     Username = result.Username,
                     Email = result.Email,
                     LastLogin = result.LastLogin ?? DateTime.Now,
@@ -122,7 +122,6 @@ namespace eUseControl.BusinessLogic.Core
             }
             catch (DbUpdateException ex)
             {
-                // Log the inner exception for debugging purposes
                 var innerException = ex.InnerException;
                 while (innerException != null)
                 {
@@ -134,7 +133,6 @@ namespace eUseControl.BusinessLogic.Core
             }
             catch (Exception ex)
             {
-                // Log the exception for debugging purposes
                 System.Diagnostics.Debug.WriteLine(ex.Message);
 
                 return new URegisterResp { Status = false, StatusMsg = "An unexpected error occurred. Please try again later." };

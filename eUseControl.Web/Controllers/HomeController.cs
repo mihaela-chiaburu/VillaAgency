@@ -13,12 +13,14 @@ namespace eUseControl.Web.Controllers
 {
     public class HomeController : BaseController
     {
+        private readonly ISession _session;
         private readonly IAdminSession _adminSession;
 
         public HomeController()
         {
             var bl = new BussinesLogic();
             _adminSession = bl.GetAdminSessionBL();
+            _session = bl.GetSessionBL();
         }
 
         // GET: Home
@@ -33,7 +35,6 @@ namespace eUseControl.Web.Controllers
 
             return View(model);
         }
-
 
         public ActionResult Contact()
         {
@@ -68,11 +69,12 @@ namespace eUseControl.Web.Controllers
             return View(model);
         }
 
-
         public ActionResult Reviews()
         {
-            return View();
+            var reviews = _session.GetAllReviews();
+            return View(reviews);
         }
+
         public ActionResult Search(string name, decimal? minPrice, decimal? maxPrice)
         {
             var villas = _adminSession.GetAllVillas().AsQueryable();
