@@ -9,6 +9,7 @@
 # User registration and login
 
   Below, the functionality and structure of the login and registration pages, as well as the operation with the database, in this context, are presented.
+  
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/358d82de-4c91-4e37-bb08-6b8d9837419d)
       Figure 2 - The session table in the database
   The figure shown shows an SQL query that queries the sessions table of a database named [eUseControlVillaAgency2]. The query selects the first 1000 rows from the [Sessions] table and displays the following columns: SessionId, Username, CookieString, and ExpireTime.
