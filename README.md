@@ -34,8 +34,8 @@
 # Profile page
   Logged in users have access to the profile page.
   
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/493a9fda-9595-44d4-b17e-817556d7f32d) ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/2f39cb57-1c63-498d-b5a6-42cc6856a03d)
-   
+![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/f6f393a6-b661-41ff-a94d-20c0091ed83b) ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/0446ca8f-0cb7-47bd-8c3c-66c58c61c96e)
+
       Figure 6 - General presentation of the site
   Figure 6 shows the default fields and image of a profile that the user fills out. Once the user presses UPDATE, the profile data is updated and saved in the database.
 
