@@ -2,6 +2,7 @@
 
   The visual part of the site comes from a free template. For this, we integrated it into the project through boundles and other methods.
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/7050b1f7-9b31-4e97-9702-4e2f8560a300)
+
       Figure 1 - General presentation of the site
   Figure 1 shows the general layout of the site, which has at least 10 pages: registration, login, main page, villa page, villa details, contact, profile, search, comments, visit planning and management accessible only to the administrator. The main page has several layouts, integrating within itself a closer combination of the other pages.
 
