@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web.Mvc;
 using eUseControl.BusinessLogic;
 using eUseControl.BusinessLogic.Interfaces;
 using eUseControl.Domain.Entities.User;
-using eUseControl.Web.Models;
 
 namespace eUseControl.Web.Controllers
 {
@@ -46,13 +43,6 @@ namespace eUseControl.Web.Controllers
                 _session.AddReview(newReview);
 
                 return RedirectToAction("Index");
-            }
-
-            // Debugging code to see the validation errors
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
-            foreach (var error in errors)
-            {
-                System.Diagnostics.Debug.WriteLine(error.ErrorMessage);
             }
 
             var reviews = _session.GetAllReviews();
