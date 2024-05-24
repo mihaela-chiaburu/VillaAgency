@@ -71,3 +71,5 @@ C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\De
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.UserMigrations.AddUserTable.resources
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.VillaMigrations.AddVillaTable.resources
 C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.ReviewsMigrations.AddReviewsTable.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.VisitsMigrations.AddVisitsTable.resources
+C:\Users\filth\Desktop\project tweb\eUseControl\eUseControl.BusinessLogic\obj\Debug\eUseControl.BusinessLogic.Migrations.VisitsMigrations.UpdateVisitRequest.resources

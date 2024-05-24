@@ -545,6 +545,7 @@
     <Compile Include="Models\UserLogin.cs" />
     <Compile Include="Models\UserRegister.cs" />
     <Compile Include="Models\Villa.cs" />
+    <Compile Include="Models\VisitPageViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\VillaViewModel.cs" />
   </ItemGroup>

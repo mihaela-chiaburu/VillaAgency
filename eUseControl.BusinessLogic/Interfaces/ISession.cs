@@ -20,5 +20,7 @@ namespace eUseControl.BusinessLogic.Interfaces
         void DeleteReview(int id);
         List<VillaDbTable> GetAllProperties();
         void AddVisitRequest(VisitRequest request);
+        List<VisitRequest> GetAllVisits(); 
+
     }
 }

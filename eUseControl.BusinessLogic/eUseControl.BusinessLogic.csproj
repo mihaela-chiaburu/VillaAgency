@@ -153,6 +153,15 @@
       <DependentUpon>202405202007279_AddVillaTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\VillaMigrations\Configuration.cs" />
+    <Compile Include="Migrations\VisitsMigrations\202405232312330_AddVisitsTable.cs" />
+    <Compile Include="Migrations\VisitsMigrations\202405232312330_AddVisitsTable.Designer.cs">
+      <DependentUpon>202405232312330_AddVisitsTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\VisitsMigrations\202405232343106_UpdateVisitRequest.cs" />
+    <Compile Include="Migrations\VisitsMigrations\202405232343106_UpdateVisitRequest.Designer.cs">
+      <DependentUpon>202405232343106_UpdateVisitRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\VisitsMigrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SessionBL.cs" />
   </ItemGroup>
@@ -188,6 +197,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\VillaMigrations\202405202007279_AddVillaTable.resx">
       <DependentUpon>202405202007279_AddVillaTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VisitsMigrations\202405232312330_AddVisitsTable.resx">
+      <DependentUpon>202405232312330_AddVisitsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\VisitsMigrations\202405232343106_UpdateVisitRequest.resx">
+      <DependentUpon>202405232343106_UpdateVisitRequest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

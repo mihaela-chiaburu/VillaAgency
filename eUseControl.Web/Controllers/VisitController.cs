@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Web.Mvc;
 using eUseControl.BusinessLogic;
 using eUseControl.BusinessLogic.Interfaces;
@@ -22,13 +21,24 @@ namespace eUseControl.Web.Controllers
         [HttpGet]
         public ActionResult Schedule()
         {
+            var user = Session["User"] as UserMinimal;
+            if (user == null)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            var viewModel = new VisitPageViewModel
+            {
+                NewVisit = new VisitRequest(),
+                Visits = _session.GetAllVisits().Where(v => v.UserId == user.Id).ToList()
+            };
             ViewBag.Properties = _session.GetAllProperties();
-            return View(new VisitRequest());
+            return View(viewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Schedule(VisitRequest request)
+        public ActionResult Schedule(VisitPageViewModel viewModel)
         {
             var user = Session["User"] as UserMinimal;
             if (user == null)
@@ -38,13 +48,14 @@ namespace eUseControl.Web.Controllers
 
             if (ModelState.IsValid)
             {
-                request.UserId = user.Id;
-                _session.AddVisitRequest(request);
-                return RedirectToAction("Index", "Home");
+                viewModel.NewVisit.UserId = user.Id;
+                _session.AddVisitRequest(viewModel.NewVisit);
+                return RedirectToAction("Schedule");
             }
 
+            viewModel.Visits = _session.GetAllVisits().Where(v => v.UserId == user.Id).ToList();
             ViewBag.Properties = _session.GetAllProperties();
-            return View(request);
+            return View(viewModel);
         }
     }
 }

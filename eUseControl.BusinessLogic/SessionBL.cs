@@ -94,5 +94,13 @@ public class SessionBL : UserApi, ISession
         }
     }
 
+    public List<VisitRequest> GetAllVisits()
+    {
+        using (var db = new VisitContext())
+        {
+            return db.VisitRequests.Include(v => v.Property).ToList();
+        }
+    }
+
 
 }

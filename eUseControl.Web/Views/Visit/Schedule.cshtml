@@ -1,51 +1,110 @@
-﻿@model eUseControl.Domain.Entities.VisitRequest
+﻿@model eUseControl.Web.Models.VisitPageViewModel
 
 @{
     Layout = "~/Views/Shared/_LayoutVisit.cshtml";
     ViewBag.Title = "Schedule a Visit";
 }
 
-<h2>Schedule a Visit</h2>
+<h2 style="text-align: center;">Schedule a Visit</h2>
 
-@using (Html.BeginForm("Schedule", "Visit", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-{
-    @Html.AntiForgeryToken()
+<div class="form-container">
+    @using (Html.BeginForm("Schedule", "Visit", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.PropertyId, "Property", new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.DropDownListFor(model => model.PropertyId, new SelectList(ViewBag.Properties, "Id", "Name"), "Select a Property", new { @class = "form-control" })
-            @Html.ValidationMessageFor(model => model.PropertyId, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.NewVisit.PropertyId, "Property", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.NewVisit.PropertyId, new SelectList(ViewBag.Properties, "Id", "Name"), "Select a Property", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.NewVisit.PropertyId, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.VisitDate, "Date", new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.EditorFor(model => model.VisitDate, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.VisitDate, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.NewVisit.VisitDate, "Date", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NewVisit.VisitDate, new { htmlAttributes = new { @class = "form-control", type = "date" } })
+                @Html.ValidationMessageFor(model => model.NewVisit.VisitDate, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.VisitTime, "Time", new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.EditorFor(model => model.VisitTime, new { htmlAttributes = new { @class = "form-control" } })
-            @Html.ValidationMessageFor(model => model.VisitTime, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.NewVisit.VisitTime, "Time", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NewVisit.VisitTime, new { htmlAttributes = new { @class = "form-control", type = "time" } })
+                @Html.ValidationMessageFor(model => model.NewVisit.VisitTime, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    <div class="form-group">
-        @Html.LabelFor(model => model.Notes, "Notes", new { @class = "control-label col-md-2" })
-        <div class="col-md-10">
-            @Html.TextAreaFor(model => model.Notes, new { @class = "form-control", @rows = 5 })
-            @Html.ValidationMessageFor(model => model.Notes, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.NewVisit.Notes, "Notes", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.NewVisit.Notes, new { @class = "form-control", @rows = 5 })
+                @Html.ValidationMessageFor(model => model.NewVisit.Notes, "", new { @class = "text-danger" })
+            </div>
         </div>
-    </div>
 
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="form-group text-center">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
         </div>
-    </div>
-}
+    }
+</div>
+
+<h2>Scheduled Visits</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Property</th>
+            <th>Visit Date</th>
+            <th>Visit Time</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var visit in Model.Visits)
+        {
+            <tr>
+                <td>@visit.Property.Name</td>
+                <td>@visit.VisitDate.ToString("dd MMM yyyy")</td>
+                <td>@visit.VisitTime.ToString("hh:mm tt")</td>
+                <td>@visit.Notes</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    .form-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .form-horizontal .form-group {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .form-horizontal .col-md-10 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .form-horizontal .text-center {
+        text-align: center;
+    }
+
+    .table {
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+
+        .table th, .table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+</style>
