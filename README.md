@@ -9,22 +9,28 @@
 # User registration and login
 
   Below, the functionality and structure of the login and registration pages, as well as the operation with the database, in this context, are presented.
-  
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/358d82de-4c91-4e37-bb08-6b8d9837419d)
-      
-      Figure 2 - The session table in the database
+  <p align="center">
+  <img src="https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/358d82de-4c91-4e37-bb08-6b8d9837419d">
+</p>
+       Figure 2 - The session table in the database
   The figure shown shows an SQL query that queries the sessions table of a database named [eUseControlVillaAgency2]. The query selects the first 1000 rows from the [Sessions] table and displays the following columns: SessionId, Username, CookieString, and ExpireTime.
-  
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/92ff6fc5-4f37-4e06-bfc1-3066c24949c8)
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/fc7afdeb-593d-43c5-b816-d7d4a43c4abd)
-      
+<p align="center">
+  <img src="https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/92ff6fc5-4f37-4e06-bfc1-3066c24949c8">
+</p>
+<p align="center">
+  <img src="https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/fc7afdeb-593d-43c5-b816-d7d4a43c4abd">
+</p>
       Figure 3 - Registration page
   As shown in Figure 3 above, the registration page is a form with 4 fields. And after pressing REGISTER we can notice how a new user is added to the database.
 
-![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/6cb3819d-26ef-4b63-a470-b8a7283005d8) ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/e89764ad-edcc-4538-a21c-5eb9417c8e84)
-     
+<p align="center">
+  <img src="https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/6cb3819d-26ef-4b63-a470-b8a7283005d8">
+</p>
+<p align="center">
+  <img src="https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/e89764ad-edcc-4538-a21c-5eb9417c8e84">
+</p>
       Figure 4 – Login
-  Figure 4 shows the login process for a new user. If the login data is invalid, an error message will be displayed.
+Figure 4 shows the login process for a new user. If the login data is invalid, an error message will be displayed.
 
 ![image](https://github.com/mihaela-chiaburu/VillaAgency/assets/143406895/c8db68fc-4fdd-452a-af20-88a62b7ab80c)
       
